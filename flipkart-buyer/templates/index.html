@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>online shopping</title>
+    <link rel="icon" href="/static/images/flipkart_iconfav.jpg">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <section class="section-nav">
+        <nav>
+            <div class="nav-left">
+                <img src="/static/images/flipkart plus.png" alt="">
+            </div>
+            <div class="nav-middle">
+                <img src="/static/images/search.png" alt="">
+                <input type="text" placeholder="Search for product,brands and more">
+            </div>
+            <div class="nav-right">
+                <div>
+                    <img class="img-store" src="/static/images/store.png" alt="">
+                    <p>Become a Seller</p>
+                </div>
+                <div>
+                    <img src="/static/images/person.png" alt="">
+                    <a href="{{url_for('login')}}">
+                        <p>login</p>
+                    </a>
+                    <img src="/static/images/person.png" alt="">
+                    <a href="">log out</a>
+                </div>
+                <div>
+                    <img src="/static/images/cart.png" alt="">
+                    <p>Cart</p>
+                </div>
+                <div>
+                    <img class="menu" src="/static/images/menu-vertical.png" alt="">
+
+                </div>
+
+
+            </div>
+        </nav>
+
+
+    </section>
+    <hr>
+
+
+    <div class="container-middle">
+
+        <div class="badges">
+            <a href="#"> <img src="/static/images/offers.jpg">
+                <p class="offers">Top Offers</p>
+            </a>
+            <a href="#"> <img src="/static/images/mobiles.jpg">
+                <p>Mobiles & Tablets</p>
+            </a>
+            <a href="#"> <img src="/static/images/electronics.jpg">
+                <p>Electronics</p>
+            </a>
+            <a href="#"> <img src="/static/images/appliances.jpg">
+                <p>TV & Appliances</p>
+            </a>
+            <a href="{{url_for('fashion')}}"> <img src="/static/images/fashion.jpg">
+                <p>Fashion</p>
+            </a>
+            <a href="#"> <img src="/static/images/beauty.jpg">
+                <p>Beauty</p>
+            </a>
+            <a href="#"> <img src="/static/images/kitchen.jpg">
+                <p>Home & Kitchen</p>
+            </a>
+            <a href="#"> <img src="/static/images/furniture.jpg">
+                <p>Furniture</p>
+            </a>
+            <a href="#"> <img src="/static/images/flights.jpg">
+                <p>Flights</p>
+            </a>
+            <a href="#"> <img src="/static/images/grocery.jpg">
+                <p>Grocery</p>
+            </a>
+
+
+        </div>
+
+    </div>
+    <hr>
+
+
+    <div class="banner">
+        <img src="/static/images/banner.jpg" alt="">
+    </div>
+    <hr>
+
+    <div clas="sbi-ads">
+        <img src="/static/images/sbi-ads.jpg" alt="">
+    </div>
+
+    <!-- {%for i in datas%}
+        <div>
+            <img src="/static/images/mobile1.jpeg" alt="">
+            <p>{{i.product_name}}</p>
+            <p>{{i.description}}</p>
+            <p>{{i.price}}</p>
+            <p>{{i.quantity}}</p>
+        </div>
+        {%endfor%} -->
+    <hr>
+
+    <div class="container-products">
+        <h2>Best of Electronics</h2>
+        <div class="items">
+            <a href="#"><img src="/static/images/keyboard and mouse.jpeg">
+                <p>Wireless Keyboard & mosue</p>
+                <P>From ₹169</P>
+            </a>
+            <a href="#"><img src="/static/images/usb gadget.jpeg">
+                <p>USB Gadgets</p>
+                <p>From ₹179</p>
+            </a>
+            <a href="#"><img src="/static/images/camera.jpeg">
+                <p>Top Mirrorless Camera</p>
+                <p>Shop Now!</p>
+            </a>
+            <a href="#"><img src="/static/images/usb-port.jpeg">
+                <p>UPS & Router UPS</p>
+                <P>From ₹1999</P>
+            </a>
+            <a href="#"><img src="/static/images/hp-printer.jpeg">
+                <p>Printers</p>
+                <P>From ₹3999</P>
+            </a>
+            <a href="#"><img src="/static/images/sandisk.jpeg">
+                <p>Sandisk Extreme Portable</p>
+                <p>From ₹5799</p>
+            </a>
+            <a href="#"><img src="/static/images/fashion-ad.jpg">
+            </a>
+
+        </div>
+        <hr>
+
+        <div class="container-devices">
+            <h2> Beauty,Food Toys & More</h2><br><br>
+            <div class="items1">
+                <a href="#"><img src="/static/images/coffee.jpeg">
+                    <p>Cofffe Powder</p>
+                    <P>Upto 80% Off</P>
+                </a>
+                <a href="#"><img src="/static/images/helmet.jpeg.jpg">
+                    <p>Rider helmet</p>
+                    <p>From 699</p>
+                </a>
+                <a href="#"><img src="/static/images/batman.jpeg">
+                    <p>Tricycles & Rideons</p>
+                    <p>Upto 70% Off</p>
+                </a>
+                <a href="#"><img src="/static/images/cycle.jpeg">
+                    <p>Electric cycle</p>
+                    <p>Upto 40% Off</p>
+                </a>
+                <a href="#"><img src="/static/images/devices.jpeg">
+                    <p>Microphones</p>
+                    <p>Upto 70% Off</p>
+                </a>
+                <a href="#"><img src="/static/images/pens.jpeg">
+                    <p>Top Selling Stationery</p>
+                    <p>From 49</p>
+                </a>
+                <a href="#"><img src="/static/images/guitar.jpeg">
+                    <p>String instruments</p>
+                    <p>Upto 70% Off</p>
+                </a>
+            </div>
+        </div>
+
+</body>
+
+</html>

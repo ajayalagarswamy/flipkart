@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.nav-left {
+    width: 15%;
+    height: 50px;
+}
+
+.nav-left img {
+    width: 60%;
+    height: 70px;
+}
+
+.nav-middle img {
+    width: 20px;
+    transform: translateX(-30px);
+
+}
+
+.nav-middle input {
+    border: none;
+    font-size: 16px;
+    width: 400px;
+    transform: translateX(-25px);
+    background-color: rgba(186, 194, 194, 0.036);
+}
+
+.nav-middle {
+    display: flex;
+    border-radius: 6px;
+    width: 40%;
+    height: 50px;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(186, 194, 194, 0.262);
+}
+
+.nav-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+}
+
+.nav-right img {
+    width: 30%;
+}
+
+.img-store {
+    width: 18% !important;
+}
+
+.nav-right p {
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.nav-right div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+nav {
+    display: flex;
+    width: 90%;
+    margin: 30px auto 30px auto;
+}
+
+
+
+
+.badges {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+
+.container-middle .badges a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.banner {
+    margin-top: 30px;
+    padding: 0%;
+    object-fit: cover;
+}
+
+.section-nav {
+    height: auto;
+    width: 98%;
+    border-radius: 30%;
+    cursor: pointer;
+    display: contents;
+}
+
+.sbi-ads {
+    margin-top: 30px;
+}
+
+
+.items {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px
+}
+
+.container-products .items a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.items1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px
+}
+
+.container-devices .items1 a {
+    text-decoration: none;
+    color: black;
+
+}

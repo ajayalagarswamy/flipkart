@@ -1,0 +1,374 @@
+.nav-top-page * {
+    background-color: #2874f0;
+
+}
+
+.nav-top-page .nav-left-page {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-top-page .nav-left-page img {
+    height: 2cm;
+    width: 3cm;
+    border-radius: 2rem;
+    margin-left: 30px;
+}
+
+.nav-top-page .nav-left-page input {
+    border: none;
+    background-color: white;
+    padding: 17px;
+    width: 55%;
+    border-radius: 8px;
+    height: auto;
+    border-radius: 3px;
+}
+
+.nav-top-page .nav-left-page button {
+    padding-left: 0;
+    border: none;
+    background-color: white;
+    padding: 17px;
+    width: 15%;
+    border-radius: 3px;
+}
+
+.nav-top-page .nav-right-page {
+    width: 45%;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.nav-top-page .nav-right-page h3 {
+    display: flex;
+    font-size: x-large;
+    color: white;
+}
+
+.nav-top-page {
+    margin: 0px 0px 0px 0x;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-topdown-page,
+.nav-topdown-page *,
+.list-container *,
+.filter * {
+    background-color: white;
+}
+
+.nav-topdown-page h4 {
+    font-size: small;
+    justify-content: space-evenly;
+}
+
+.nav-topdown-page {
+    border: 0.1mm solid #cfe1ff;
+    /* box-shadow: 10px 10px 10px; */
+    display: flex;
+    justify-content: space-between;
+    height: 7%;
+    border-bottom: 2.5px solid rgb(211, 211, 211);
+}
+
+.list-container img {
+    height: auto;
+    width: 22%;
+}
+
+.list-container-div {
+    line-height: 15px;
+}
+
+.list-container * {
+    padding: 4px;
+}
+
+
+.list-container {
+    padding: 6px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+    background-color: f9f9f9;
+}
+
+.list-container p .star {
+    color: green;
+}
+
+div .container-img {
+    height: 18%;
+    width: 40%;
+}
+
+.main {
+    border: 1px solid #cfe1ff;
+    width: 100%;
+    height: auto;
+}
+
+section * {
+    background-color: white;
+}
+
+section div {
+    margin-bottom: 20px;
+}
+
+.filter h4:nth-child(2) {
+    color: blue;
+    padding: 0%;
+    height: 100%;
+    font-size: large;
+    border-bottom: 4px solid blue;
+    background-color: white;
+}
+
+section * {
+    background-color: white;
+}
+
+section {
+    width: 100%;
+    display: flex;
+}
+
+section div .populartiy {
+    color: #2874f0;
+    padding-right: 10%;
+    display: inline;
+    font-size: larger;
+    border-bottom: 10px solid #2874f0;
+}
+
+.filter,
+section div .populartiy {
+    margin-top: 3%;
+}
+
+.filter {
+    width: 100%;
+    display: inline;
+    padding-left: 0;
+    padding-right: 8%;
+}
+
+.side-bar * {
+    background-color: white;
+}
+
+.side-bar {
+    width: 26%;
+    background-color: #cfe1ff;
+}
+
+.side-bar .side-bar-div {
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+.side-bar-div img {
+    height: 1cm;
+    width: auto;
+}
+
+* {
+    font-family: sans-serif;
+    background-color: #cfe1ff;
+}
+
+.flex-div {
+    display: flex;
+}
+
+.filter {
+    background-color: white;
+    width: 100%;
+}
+
+.list-container-div>img {
+    height: 35%;
+    width: 80%;
+}
+
+
+.list-container-div:hover {
+    box-shadow: 0px 0px 3px;
+    border: 1px solid #cccccc;
+}
+
+.list-container h4,
+.list-container h4 * {
+    color: white;
+    background-color: rgb(4, 48, 4);
+}
+
+div span {
+    display: flex;
+}
+
+footer {
+    border-bottom: 1px solid whitesmoke;
+    justify-content: space-between;
+    width: 100%;
+}
+
+footer .about2 div h6 {
+    color: slategray;
+}
+
+footer .about1 div h6 {
+    color: slategray;
+}
+
+footer .about1,
+footer .about2 {
+    padding: 1%;
+}
+
+footer .about2 div {
+    padding: 1%;
+}
+
+footer .about1,
+.about2 div small {
+    color: whitesmoke;
+
+}
+
+footer * {
+    background-color: #172337;
+}
+
+footer .about1 {
+    border-right: 1px solid whitesmoke;
+    width: 60%;
+    justify-content: space-evenly;
+    line-height: 25px;
+}
+
+.lastline-footer {
+    border-top: 1px solid grey;
+    font-size: small;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+
+.lastline-footer img {
+    height: 12px;
+}
+
+.container {
+    margin-top: -16px;
+    margin-bottom: -18px;
+    width: 100%;
+}
+
+.container p .star {
+    background-color: rgb(1, 80, 1);
+    width: .8cm;
+}
+
+.container .star {
+    color: white;
+    width: 1cm;
+    background-color: rgb(1, 80, 1);
+}
+
+.container img {
+    margin-left: 10%;
+    margin-top: 30%;
+    margin-bottom: 0%;
+    height: 55%;
+    width: auto;
+}
+
+.container div {
+    font-size: smaller;
+    width: 27%;
+    height: auto;
+}
+
+.container-div h3 {
+    padding: 20px;
+    background-color: white;
+}
+
+.blur {
+    color: grey;
+}
+
+
+
+
+/* login css */
+
+
+
+
+
+
+.div1,
+.div1 * {
+    color: #cccccc;
+    background-color: #2874f0;
+}
+
+.div1 h1 {
+    color: #fffefe;
+}
+
+.sigin {
+    padding: 1%;
+    width: 100vh;
+    margin-left: 25%;
+}
+
+.sign-btn {
+    color: white;
+    border: none;
+    background-color: #fb641b;
+    font-size: x-large;
+    height: 7vh;
+    width: 57vh;
+}
+
+.sign-input {
+    height: 7vh;
+    width: 56vh;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid gray;
+}
+
+.div2,
+.div1 {
+    padding: 50px;
+}
+
+.div2 p b {
+    color: #2874f0;
+}
+
+.div2 form a {
+    text-decoration: none;
+}
+
+.div2 p a b {
+    text-decoration: none;
+}
+
+.div1 {
+    width: 40vh;
+}
